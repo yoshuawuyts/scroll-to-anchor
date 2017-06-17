@@ -8,12 +8,15 @@ Scroll to an anchor if possible.
 ```js
 var scrollToAnchor = require('scroll-to-anchor')
 scrollToAnchor(window.location.hash)
+scrollToAnchor(window.location.hash, { behavior: 'smooth' })
 ```
 
 ## API
-### `scrollToAnchor(anchor)`
+### `scrollToAnchor(anchor, options)`
 Scroll to an anchor if possible. Does nothing if no anchor is provided or if the
 anchor doesn't exist on the page.
+
+You can also specify the same options as the [scrollIntoView](https://developer.mozilla.org/en/docs/Web/API/Element/scrollIntoView#Parameters) method which allows for more positioning options and scroll behaviour changes.
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
