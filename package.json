@@ -1,0 +1,23 @@
+{
+  "name": "scroll-to-anchor",
+  "description": "Scroll to the current anchor in the url if possible",
+  "repository": "yoshuawuyts/scroll-to-anchor",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.8.0",
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "scroll",
+    "anchor",
+    "browser"
+  ],
+  "license": "MIT"
+}
