@@ -11,8 +11,8 @@ scrollToAnchor(window.location.hash)
 ```
 
 ## API
-### `scrollToAnchor(hash)`
-Scroll to a hash if possible. Does nothing if no anchor is provided or if the
+### `scrollToAnchor(anchor)`
+Scroll to an anchor if possible. Does nothing if no anchor is provided or if the
 anchor doesn't exist on the page.
 
 ## License
